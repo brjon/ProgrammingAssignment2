@@ -8,6 +8,10 @@
 ## 1) selecting a matrix to invert :mat<-rbind(1:3,c(0,1,5),c(5,6,0))
 ## 2) calling CacheMatrix<-makeCacheMatrix(mat)
 ## 3) calling cacheSolve(CacheMatrix)
+## example : 
+##          mat<-rbind(1:3,c(0,1,5),c(5,6,0))
+##          a<-makeCacheMatrix(mat)
+##          b<-cachesolve(a)
 
 
 
